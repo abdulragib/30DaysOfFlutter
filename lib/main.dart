@@ -1,4 +1,6 @@
+
 import 'package:flutter/material.dart';
+import 'home_page.dart';
 
 void main() {
   runApp(
@@ -11,14 +13,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+   
+    
+
     return MaterialApp(
-      home: Material(
-        child: Center(
-          child: Container(
-            child: Text("Welcome to Flutter"),
-          ),
-        ),
-      ),
+      home: HomePage(),
     );
   }
 }
+
+// data cant be change when we use const.
+//final can be modified.
