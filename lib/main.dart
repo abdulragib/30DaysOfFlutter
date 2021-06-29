@@ -1,4 +1,5 @@
 
+import 'package:ecommerce/utils/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'pages/home_page.dart';
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
    
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
        //home: HomePage(),
       themeMode: ThemeMode.light,
       theme: ThemeData(
@@ -31,8 +33,8 @@ class MyApp extends StatelessWidget {
     //  initialRoute: "/home",
       routes: {
         "/": (context) => LoginPage(),
-        "/home": (context) => HomePage(),
-        "/login": (context) => LoginPage(),
+        MyRoutes.homeRoute: (context) => HomePage(),
+        MyRoutes.loginRoute: (context) => LoginPage(),
       },
     );
   }
@@ -41,3 +43,5 @@ class MyApp extends StatelessWidget {
 // data cant be change when we use const.
 //final can be modified.
 //widget is a component 
+//static used memory one time and 
+//When modifying a data member in a class declaration, the static keyword specifies that one copy of the member is shared by all instances of the class.
