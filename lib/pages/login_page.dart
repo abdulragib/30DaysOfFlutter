@@ -19,7 +19,8 @@ class _LoginPageState extends State<LoginPage> {
       child: SingleChildScrollView(
         child: Column(
           children: [
-            Image.asset("assets/images/login_image.png", fit: BoxFit.cover),
+            SizedBox(height: 70.0),
+            Image.asset("assets/images/welcome.png", fit: BoxFit.cover),
             SizedBox(height: 20.0),
             Text(
               "Welcome $name",
