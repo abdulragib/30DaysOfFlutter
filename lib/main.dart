@@ -2,7 +2,6 @@
 import 'package:ecommerce/utils/routes.dart';
 import 'package:ecommerce/widgets/theme.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'pages/home_page.dart';
 import 'pages/login_page.dart';
 

@@ -1,0 +1,37 @@
+{
+    "products": [
+        {
+            "id": "Codepur001",
+            "name":"iphone 12 pro",
+            "desc": "Apple iphone 12th generation",
+            "price": "999",
+            "color": "#33506a",
+            "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max-.jpg"
+            
+        },
+
+        {
+           "id": "Codepur002",
+           "name": "Pixel 5",
+           "desc": "Google Pixel Phone 5th generation",
+           "price": 699,
+           "color": "#00ac51",
+           "image": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-5-5g.jpg"
+
+        },
+
+        {
+            "id": "Codepur003",
+            "name": "Mackbook Air",
+            "desc": "Google Pixel Phone 5th generation",
+            "price": 799,
+            "color": "#e0bfae",
+            "image": "https://i2.wp.com/maplestore.in/wp-content/uploads/2020/11/Mac-1.jpg?resize=500%2C500&ssl=1"
+ 
+         }
+
+
+
+
+    ]
+}
